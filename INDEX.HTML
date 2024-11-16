@@ -1,0 +1,52 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Nathan's Survey Form</h1>
+    <p id="description">Good for given us the attention in this survey</p>
+    <div id="all">
+      <form id="survey-form"><label id="name-label">Name </label><input id="name" type="text" required placeholder="Enter your name"></form>
+       <form id="survey-form"><label id="email-label">Email </label><input id="email" required type="email" placeholder="Enter your email"></form>
+        <form id="survey-form"><label id="number-label">Age </label><input id="number" required type="number" min="10" max="180" placeholder="Age"></form>
+        <form id="survey-form">
+          <label id="option">Which option best describes your role</label><select id="dropdown">
+            <option>Teacher</option>
+            <option>Student</option>
+            <option>Robber</option>
+            <option>House Help</option>
+            <option>Designer</option></select></form>
+
+            <form id="survey-form">
+              <label id="Recommend">Would you recommend us?</label>
+              <label>
+                <input type="radio"name="option"value="option1"checked>Definitely</label>
+              </label>
+
+                <label>
+                <input type="radio"name="option"value="option2">Maybe</label>
+              </label>
+
+                <label>
+                <input type="radio"name="option"value="option2">Not Sure</label>
+              </label></form>
+
+              <form id="survey-form"></label id="checkbox">What will you like to see</label>
+       <label>
+               <label><input type="checkbox"value="checkbox">Front-End Projects</label>  
+                 <label><input type="checkbox"value="checkbox">Back-End Projects</label> 
+                   <label><input type="checkbox"value="checkbox">Digital Visualisation</label>
+                     <label><input type="checkbox"value="checkbox">Challenges</label>
+                       <label><input type="checkbox"value="checkbox">Additional Courses</label>
+                  </form>
+
+                  <form id="survey-form"><label>Any Comments or Suggestions?</label><textarea col="10" row="5" placeholder="Enter your comments here..."></textarea></form>
+                  <form id="survey-form"><button id="submit" type="submit">Submit</button></form>
+                      
+
+    </div>
+  </body>
+  </html>
